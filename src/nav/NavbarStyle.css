@@ -125,3 +125,17 @@
     background-color: transparent;
   }
 }
+@media screen and (max-width:380px) {
+  .nav-list.active a{
+    padding: 0%;
+    margin: -1rem
+    
+  }
+  .nav-list.active{
+    margin-top: -1rem;
+
+  }
+  .nav-list.active li{
+    margin-top: -2rem;
+  }
+}
