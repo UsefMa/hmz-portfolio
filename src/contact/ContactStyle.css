@@ -1,0 +1,98 @@
+.contact-container {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
+    url("../images/andrea-g-ZlGBUn7b99s-unsplash.jpg") no-repeat center
+      center/cover;
+  background-origin: initial;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 115px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.contact-title {
+  
+  color: white;
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  
+}
+.input-side input {
+  width: 20rem;
+  height: 46px;
+  border-radius: 1rem;
+  background-color: rgb(131, 78, 29);
+  border: none;
+  outline: none;
+  padding: 1rem;
+
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.input-side button {
+  width: 10rem;
+  height: 46px;
+  border-radius: 1rem;
+  background-color: rgb(131, 78, 29);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  margin: 1rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  cursor: pointer;
+}
+.input-side button:hover {
+  background-color: blueviolet;
+  transition: 1s;
+  transform: translateY(5px);
+}
+.media-icon {
+  color: rgb(131, 78, 29);
+  margin-bottom: 2rem;
+}
+.media-icon:hover {
+  color: blueviolet;
+}
+
+@media screen and (max-width:850px) {
+    .contact-container{
+        height: 70vh;
+    }    
+}
+@media screen and (max-width:700px) {
+  .contact-container{
+      height: 90vh;
+      padding-bottom: 43rem;
+      
+  }    
+  
+}
+@media screen and (max-width:400px) {
+  .input-side input{
+    width: 18rem;
+      
+      
+      
+  }    
+}
+@media screen and (max-width:300px) {
+  .input-side input{
+    width: 14rem;
+    margin-right: 1rem;
+      
+      
+      
+  }    
+}

@@ -1,0 +1,68 @@
+.about-container {
+  height: 110vh;
+  width: 100%;
+  background-color: azure;
+  padding-top: 6.1rem;
+
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-container .text {
+    
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+img {
+    width: 20rem;
+    margin-right: 5rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgb(0 0 0 / 90%) 0px 8px 34px;
+    cursor: pointer;
+}
+img:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+    box-shadow: rgb(0 0 0 / 240%) 0px 18px 74px
+}
+@media screen and (max-width:330px) {
+    img{
+        width: 14rem;
+        
+        
+    }
+    .text{
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  img{
+    margin: auto;
+  }
+}
+@media screen and (max-width:700px) {
+  .about-container{
+      
+      height: 129vh;
+      
+  }    
+}
+@media screen and (max-width:400px) {
+  .about-container{
+      
+      height: 179vh;
+      
+  }    
+}
