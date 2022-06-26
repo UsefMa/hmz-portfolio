@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hmz-portfolio/static/css/main.f307b292.css",
+    "main.js": "/hmz-portfolio/static/js/main.5fde4b2d.js",
+    "static/media/andrea-g-ZlGBUn7b99s-unsplash.jpg": "/hmz-portfolio/static/media/andrea-g-ZlGBUn7b99s-unsplash.9e9049abadd414c1a7dd.jpg",
+    "static/media/fimg-1.jpg": "/hmz-portfolio/static/media/fimg-1.c0041172997b92b313fb.jpg",
+    "static/media/img-5.jpg": "/hmz-portfolio/static/media/img-5.653ff950367c422b6fe3.jpg",
+    "index.html": "/hmz-portfolio/index.html",
+    "main.f307b292.css.map": "/hmz-portfolio/static/css/main.f307b292.css.map",
+    "main.5fde4b2d.js.map": "/hmz-portfolio/static/js/main.5fde4b2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f307b292.css",
+    "static/js/main.5fde4b2d.js"
+  ]
+}
